@@ -1,25 +1,17 @@
-   ____            _          _        _____                       
-  / __ \          (_)        | |      |  __ \                      
- | |  | |  _   _   _    ___  | | __   | |  | |   ___     ___   ___ 
- | |  | | | | | | | |  / __| | |/ /   | |  | |  / _ \   / __| / __|
- | |__| | | |_| | | | | (__  |   <    | |__| | | (_) | | (__  \__ \
-  \___\_\  \__,_| |_|  \___| |_|\_\   |_____/   \___/   \___| |___/
-                                                                   
-                                                                
+Documentation
+
 	Flynet.Framework:
 		:Create(InstanceName,Configuration)
 			InstanceName:string
 			Configuration:table ({
 				'Property' = Value
 			})
-			Don't do local Object = :Create(), it returns table.
-			Instead do local Object = :Create()()
 			
 			Returns Instance
 			
 	Framework.UI:
 		:Create(InstanceName,Configuration)
-			InstanceName:string -- Right now, for v1.00, this only accepts Button.
+			InstanceName:string -- Right now, for v0.9, this only accepts Button.
 			Configuration:table ({ 
 				-- This only accepts: TextScaled,BackgroundColor3,Text,TextColor3,Size,Position,Parent.
 				-- However, you can use :Create().Property = Value
