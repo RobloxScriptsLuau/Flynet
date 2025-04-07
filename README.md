@@ -6,6 +6,7 @@
 <p align="center">Better Plugin Managment, Easy Plugin API.</p>
 
 <div align="center">
-    <a href="https://discord.gg/bBGQZvd"><img src="https://img.shields.io/badge//DevForum?logo=robloxstudio" alt="DevForum"/></a>
+    <a href="https://devforum.roblox.com/t/flynet-better-plugin-manager-easy-plugin-api/3594678"><img src="https://img.shields.io/badge/DevForum?logo=robloxstudio" alt="DevForum"/></a>
     <br>
 </div>
+
